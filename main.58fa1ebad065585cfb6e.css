@@ -472,6 +472,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+        padding: 10px;
     }
 }
 
@@ -595,6 +596,22 @@ body {
     padding-left: 24px;
     padding-top: 24px;
 } 
+
+@media screen and (max-width: 390px) {
+    .ECOWij9G {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .VKMpw9kw {
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .befCcKkB {
+        margin-top: 20px;
+        grid-template-rows: repeat(2, 50%);
+    }
+}
 .wA1neuTO {
     display: grid;
     grid-template-columns: 30%;
