@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sergeykuklin.github.io/Shop_sport_learn/",
+  "homepage": "https://sergeykuklin.github.io/Shop_sport/",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --env MODE=development PORT=3000",
