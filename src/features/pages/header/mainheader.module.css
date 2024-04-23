@@ -30,7 +30,19 @@
 }
 
 @media screen and (max-width: 391px) {
+    .mainContent {
+        display: grid;
+    }
+
+    .mainMenu {
+        margin: 0;
+    }
+    
     .mainMenuList {
         display: none;
+    }
+
+    .showMenuBlock {
+        display: block;
     }
 }

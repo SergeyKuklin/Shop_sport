@@ -20,8 +20,25 @@
     }
 }
 
+.clothersList_top {
+    display: none;
+}
+
 @media screen and (max-width: 391px) {
     .clothersList {
-        display: none;
+        display: grid;
+        row-gap: 16px;
+        margin: 16px;
+        grid-template-columns: 100%;
+        li {
+            width: 100%;
+        }
+        a {
+            display: block;
+            border-bottom: 1px solid var(--gray-white);
+            padding-bottom: 10px;
+            width: 100%;
+        }
+        
     }
 }

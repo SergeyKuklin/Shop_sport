@@ -1,0 +1,17 @@
+.btnShow {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 45%;
+        border: 1px solid black;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

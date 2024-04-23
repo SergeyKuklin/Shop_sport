@@ -1,8 +1,10 @@
 import s from './mainheader.module.css';
 import logo from './images/logo.png';
-import { NavClotherHeader } from './navheader';
+import { ShowMenu } from './showmenu';
 
 export const MainHeader = () => {
+
+
     return (
         <div>
             <div className={s.mainContent}>
@@ -27,8 +29,9 @@ export const MainHeader = () => {
                     <div><img src="" alt="" /></div>
                 </div>
             </div>
-            <div>
-                <NavClotherHeader />
+            <div className={s.showMenuBlock}>
+                {/* <NavClotherHeader /> */}
+                <ShowMenu />
             </div>
         </div>
     )

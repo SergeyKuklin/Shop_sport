@@ -6,6 +6,7 @@ import { SertificationSection } from '../seftification/sectification';
 import { SaleSection } from '../sale/sale';
 import { FormBlock } from 'features/shared/components/sliderIcon/form/form';
 import { Footer } from 'features/shared/components/footer/footer';
+import { ShowMenu } from 'features/pages/header/showmenu';
 
 export const MainPage = () => {
   return (

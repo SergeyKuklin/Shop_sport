@@ -2,7 +2,6 @@ import { mockCards } from "../model/mockCards";
 import coverImg from '../image/Nike_Defy_All_Day_black.png';
 import s from './carditem.module.css';
 import { Card } from "features/shared/types/card";
-import { ImageCard } from "../image/imgComp";
 
 type PostCardProps = {
     cardData: Card;

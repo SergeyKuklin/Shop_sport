@@ -4,12 +4,15 @@ import { mockCards } from "./model/mockCards";
 
 export const Cards = () => {
 
-console.log(mockCards);
+    const listItem = mockCards.filter((Card) => (
+        Card.id <= 3
+    ));
 
     return (
         <div>
             <div className={s.cardsPosition}>
-                {mockCards.map((cards, id) => <CardItem cardData={cards} key={id}/>)}
+
+                {listItem.map((cards, id) => <CardItem cardData={cards} key={id}/>)}
                 {/* <CardItem /> */}
             </div>
         </div>

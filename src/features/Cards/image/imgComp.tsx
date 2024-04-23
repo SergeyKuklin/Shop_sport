@@ -1,14 +1,6 @@
 
-
-type ImageCardProps = {
-    src: string,
-    alt: string,
-}
-
-export const ImageCard = (props: ImageCardProps) => {
+export function getImage (cardData: { coverImage: string; }) {
     return (
-        <>
-        <img src={props.src} alt={props.alt} />
-        </>
+        cardData.coverImage
     )
 }
