@@ -1,6 +1,7 @@
 import s from './mainheader.module.css';
 import logo from './images/logo.png';
 import { ShowMenu } from './showmenu';
+import { NavClotherHeader } from './navheader';
 
 export const MainHeader = () => {
 
@@ -32,6 +33,9 @@ export const MainHeader = () => {
             <div className={s.showMenuBlock}>
                 {/* <NavClotherHeader /> */}
                 <ShowMenu />
+            </div>
+            <div className={s.clother}>
+                <NavClotherHeader />
             </div>
         </div>
     )

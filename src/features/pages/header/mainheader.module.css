@@ -11,6 +11,10 @@
     width: 100%;
 }
 
+.clother {
+    display: block;
+}
+
 .mainMenuList {
     display: flex;
     flex-wrap: wrap;
@@ -44,5 +48,13 @@
 
     .showMenuBlock {
         display: block;
+    }
+
+    .clotherListShow {
+        display: none;
+    }
+
+    .clother {
+        display: none;
     }
 }
