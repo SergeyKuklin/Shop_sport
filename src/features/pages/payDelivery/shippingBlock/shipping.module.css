@@ -1,0 +1,65 @@
+@import url(../payDelivery.module.css);
+
+.titleShipBlock {
+    h2 {
+        font-size: 32px;
+        line-height: 110%;
+        letter-spacing: 0.01em;
+    }
+    p {
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+    }
+}
+
+.titleShip {
+    font-size: 20px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    margin-top: 24px;
+}
+
+.textShip {
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    margin-top: 12px;
+}
+
+.contentShip {
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+
+.flexShip {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shipBanner {
+    max-width: 393px;
+    max-width: 589px;
+    border-radius: 12px;
+    margin-left: 20px;
+    background: radial-gradient(243.03% 191.83% at 102.27% -3.07%, rgb(110, 47, 158) 0%, rgb(142, 154, 225) 24.47916716337204%, rgb(221, 97, 175) 56.77083134651184%, rgb(238, 242, 168) 74.47916865348816%);
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    p {
+        font-size: 24px;
+        line-height: 110%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: var(--white);
+        margin-top: 21px;
+        margin-bottom: 24px;
+    }
+}
+
+.btnShip {
+    margin-bottom: 24px;
+}
