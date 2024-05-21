@@ -5,8 +5,8 @@ import { MainPage } from 'features/pages/mainPage/template';
 export const App = () => {
   return (
       <div>
-        {/* <MainPage /> */}
-        <PayDeliveryPage />
+        <MainPage />
+        {/* <PayDeliveryPage /> */}
       </div>
   )
 }
