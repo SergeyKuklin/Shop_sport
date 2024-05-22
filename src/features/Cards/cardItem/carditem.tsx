@@ -1,5 +1,5 @@
 import { mockCards } from "../model/mockCards";
-import coverImg from '../image/Nike_Defy_All_Day_black.png';
+import coverImg from '../../assets/images/Nike_Air_Max_TW_SE_white.png';
 import s from './carditem.module.css';
 import { Card } from "features/shared/types/card";
 

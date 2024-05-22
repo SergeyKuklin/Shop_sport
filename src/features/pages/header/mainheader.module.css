@@ -23,13 +23,38 @@
     max-width: 603px;
     li {
         list-style: none;
-        a {
-            font-size: 14px;
-            line-height: 140%;
-            letter-spacing: 0.01em;
-            color: var(--gray-dark);
-            text-decoration: none;
-        }
+        
+    }
+}
+
+.nonActiveLink {
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: var(--gray-dark);
+    text-decoration: none;
+}
+
+.activeLink {
+    color: black;
+    position: relative;
+    transition: all 1s;
+    &::after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid black;
+        transition: all 1s;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid black;
     }
 }
 

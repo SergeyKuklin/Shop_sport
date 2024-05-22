@@ -1,3 +1,4 @@
+
 import { Card } from "features/shared/types/card";
 
 export const mockCards: Card [] = [
@@ -6,7 +7,7 @@ export const mockCards: Card [] = [
     section: 'sneakers',
     pagination: 'Лучшая цена',
     name: 'Nike Defy All Day',
-    coverImage: '../images/Nike_Defy_All_Day_black.png',
+    coverImage: '../../assets/images/Nike_Defy_All_Day_black.png',
     image_1: '',
     fullPrice: 12990,
     currency: 32,

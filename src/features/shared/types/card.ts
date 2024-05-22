@@ -3,7 +3,7 @@ export type Card = {
     pagination: string,
     section: string;
     name: string,
-    coverImage: any,
+    coverImage: string,
     image_1: string,
     fullPrice: number,
     salePrice: number,

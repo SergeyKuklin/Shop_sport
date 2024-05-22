@@ -2,6 +2,9 @@ import s from './mainheader.module.css';
 import logo from './images/logo.png';
 import { ShowMenu } from './showmenu';
 import { NavClotherHeader } from './navheader';
+import { Link, NavLink } from 'react-router-dom';
+import { ROUTES } from '../router/routes';
+import classes from 'classnames';
 
 export const MainHeader = () => {
 
@@ -10,16 +13,16 @@ export const MainHeader = () => {
         <div>
             <div className={s.mainContent}>
                 <div>
-                    <a href="#"><img src={logo} alt="" /></a>
+                    <Link to={ROUTES.MAINROOT}><img src={logo} alt="" /></Link>
                 </div>
                 <div className={s.mainMenu}>
                     <nav>
                         <ul className={s.mainMenuList}>
-                            <li><a href="#">Оплата и доставка</a></li>
-                            <li><a href="#">Обмен и возврат</a></li>
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Контакты</a></li>
-                            <li><a href="#">Оригинал 100%</a></li>
+                            <li><NavLink to={ROUTES.PAYDELIVERY} className={({isActive}) => classes(s.nonActiveLink, {[s.activeLink]: isActive})}>Оплата и доставка</NavLink></li>
+                            <li><NavLink to={ROUTES.EXCHANGERETURN}>Обмен и возврат</NavLink></li>
+                            <li><a href="#" className={s.nonActiveLink}>О компании</a></li>
+                            <li><a href="#" className={s.nonActiveLink}>Контакты</a></li>
+                            <li><a href="#" className={s.nonActiveLink}>Оригинал 100%</a></li>
                         </ul>
                     </nav>
                 </div>
