@@ -18,7 +18,8 @@ export const FormBlock = ({style}: FormProps) => {
                     <input type="query" placeholder="Ваш Email" required/>
                     <button type="submit" className={s.btnSub}>Подписаться</button>
                     <label form="polity" className={s.polityAccept}>
-                        <input type="radio" name="polity" required/>
+                        <input type="checkbox" name="polity" required/>
+                        <div className={s.checkboxType}></div>
                         Я согласен с политикой обработки и политикой конфиденциальности
                     </label>
                 </form>

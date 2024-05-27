@@ -1,0 +1,6 @@
+@import url(../../shared/index.module.css);
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
