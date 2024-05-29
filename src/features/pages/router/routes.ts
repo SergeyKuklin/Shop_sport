@@ -3,4 +3,5 @@ export enum ROUTES {
     PAYDELIVERY = '/paydelivery',
     EXCHANGERETURN = '/exchangeReturn',
     ABOUTUS = '/aboutus',
+    CONTACT = '/contact',
   }

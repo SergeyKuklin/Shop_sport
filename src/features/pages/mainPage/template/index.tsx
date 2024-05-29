@@ -16,7 +16,7 @@ export const MainPage = () => {
         <Cards />
         <SertificationSection />
         <SaleSection />
-        <FormBlock style={`${s.formSection}`}/>
+        <FormBlock />
         <Footer/>
       </div>
   )

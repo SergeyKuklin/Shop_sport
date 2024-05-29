@@ -5,7 +5,7 @@
     grid-template-columns: 30%;
     align-items: center;
     justify-content: center;
-    
+    width: 100%;
     input {
         height: 50px;
         border-radius: 12px;
@@ -44,3 +44,10 @@
     text-align: center;
 }
 
+.formSection {
+	border-radius: 12px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	margin-bottom: 140px;
+	background: linear-gradient(244deg, #efefef 0%, #cb9a63 29.17%, #d76598 42.71%, #46527f 56.77%, #1e9190 70.83%, #4a5976 86.46%, #5f3f6b 100%);
+}

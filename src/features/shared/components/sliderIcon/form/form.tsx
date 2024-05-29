@@ -1,15 +1,15 @@
 import { Children, ReactNode } from 'react';
 import s from './form.module.css';
 
-type FormProps = {
-    style: string
-}
+// type FormProps = {
+//     style: string
+// }
 
-export const FormBlock = ({style}: FormProps) => {
+export const FormBlock = () => {
 
     return (
         <div>
-            <div className={style}>
+            <div className={s.formSection}>
                 <div className={s.titleForm}>
                     <h2>Подпишись на рассылку</h2>
                     <p>Чтобы всегда быть вкурсе интересного</p>

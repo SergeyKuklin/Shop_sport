@@ -1,0 +1,17 @@
+.expItem {
+    border: 2px solid var(--yellow);
+    border-radius: 12px;
+    padding: 16px;
+    :nth-child(1) {
+        font-size: 24px;
+        line-height: 110%;
+        letter-spacing: 0.01em;
+        color: var(--dark);
+    }
+    :nth-child(2) {
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        color: var(--dark);
+    }
+}

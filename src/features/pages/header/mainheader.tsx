@@ -21,7 +21,7 @@ export const MainHeader = () => {
                             <li><NavLink to={ROUTES.PAYDELIVERY} className={({isActive}) => classes(s.nonActiveLink, {[s.activeLink]: isActive})}>Оплата и доставка</NavLink></li>
                             <li><NavLink to={ROUTES.EXCHANGERETURN} className={({isActive}) => classes(s.nonActiveLink, {[s.activeLink]: isActive})}>Обмен и возврат</NavLink></li>
                             <li><NavLink to={ROUTES.ABOUTUS} className={({isActive}) => classes(s.nonActiveLink, {[s.activeLink]: isActive})}>О компании</NavLink></li>
-                            <li><a href="#" className={s.nonActiveLink}>Контакты</a></li>
+                            <li><NavLink to={ROUTES.CONTACT} className={({isActive}) => classes(s.nonActiveLink, {[s.activeLink]: isActive})}>Контакты</NavLink></li>
                             <li><a href="#" className={s.nonActiveLink}>Оригинал 100%</a></li>
                         </ul>
                     </nav>

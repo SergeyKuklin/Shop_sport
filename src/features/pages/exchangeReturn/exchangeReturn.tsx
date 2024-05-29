@@ -12,7 +12,7 @@ export const ExchangeReturn = () => {
             <PageWrapper>
                 <MainHeader />
                 <ExchangeReturnContent />
-                <FormBlock style={s.formBlock} />
+                <FormBlock />
                 <Footer />
             </PageWrapper>
                 

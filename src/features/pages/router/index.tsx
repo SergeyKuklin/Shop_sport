@@ -4,6 +4,7 @@ import { ROUTES } from "./routes";
 import { PayDeliveryPage } from "../payDelivery/payDelivery";
 import { ExchangeReturn } from "../exchangeReturn/exchangeReturn";
 import { AboutPage } from "../aboutUs/aboutpage";
+import { ContactPage } from "../contact/contact";
 
 export const router = createBrowserRouter ([
     {
@@ -24,5 +25,10 @@ export const router = createBrowserRouter ([
     {
         path: ROUTES.ABOUTUS,
         element: <AboutPage />,
+    },
+
+    {
+        path: ROUTES.CONTACT,
+        element: <ContactPage />,
     }
 ])
