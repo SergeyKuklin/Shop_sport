@@ -5,9 +5,7 @@ import { mockCards } from "./model/mockCards";
 
 export const Cards = () => {
     const [cards, setCards] = useState(mockCards);
-
     
-
     // const listItem = mockCards.filter((Card) => (
     //     Card.id <= 3
     // ));
@@ -16,7 +14,7 @@ export const Cards = () => {
         <div>
             <div className={s.cardsPosition}>
 
-                {mockCards.map((cards, id) => <CardItem cardData={cards} key={id}/>)}
+                {cards.map((cards, id) => <CardItem cardData={cards} key={id}/>)}
                 {/* <CardItem /> */}
             </div>
         </div>

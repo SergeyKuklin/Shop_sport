@@ -1,0 +1,40 @@
+.bannerBlock {
+    background: var(--yellow);
+    background-image: url(../image/vector_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-radius: 12px;
+    h2 {
+        font-size: 32px;
+        line-height: 110%;
+        letter-spacing: 0.01em;
+        color: var(--black);
+    }
+    &>p {
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: var(--dark);
+        max-width: 969px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+}
+
+.bannerPostScript {
+    border-radius: 12px;
+    background: var(--white);
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--dark);
+    max-width: 931px;
+    margin: auto;
+    padding: 24px 40px;
+}
