@@ -1,4 +1,9 @@
-
+import NikeDefyAllDay_1 from '../image/Nike_Defy_All_Day_black.png';
+import NikeVarsityRoyal_1 from '../image/Nike_Varsity_Royal_blue.png';
+import NikeAirMaxTWSE_1 from '../image/Nike_Air_Max_TW_SE_white.png';
+import NikeACGShirt_1 from '../image/Nike_AC_T_shirt.png';
+import NikeSocks_1 from '../image/Nike_socks_white.png';
+import JordanSShot_1 from '../image/Jordan_sweatshot_black.png';
 import { Card } from "features/shared/types/card";
 
 export const mockCards: Card [] = [
@@ -7,7 +12,7 @@ export const mockCards: Card [] = [
     section: 'sneakers',
     pagination: 'Лучшая цена',
     name: 'Nike Defy All Day',
-    coverImage: '../../assets/images/Nike_Defy_All_Day_black.png',
+    coverImage: NikeDefyAllDay_1,
     image_1: '',
     fullPrice: 12990,
     currency: 32,
@@ -18,7 +23,7 @@ export const mockCards: Card [] = [
     section: 'sneakers',
     pagination: 'Хит сезона',
     name: 'Nike Varsity Royal',
-    coverImage: '../images/Nike_Varsity_Royal_blue.png',
+    coverImage: NikeVarsityRoyal_1,
     image_1: '',
     fullPrice: 22990,
     currency: 17,
@@ -29,7 +34,7 @@ export const mockCards: Card [] = [
     section: 'sneakers',
     pagination: 'Топ продаж',
     name: 'Nike Air Max TW SE',
-    coverImage: '../images/Nike_Air_Max_TW_SE_white.png',
+    coverImage: NikeAirMaxTWSE_1,
     image_1: '',
     fullPrice: 12990,
     currency: 12,
@@ -37,10 +42,10 @@ export const mockCards: Card [] = [
   },
   {
     id: 4,
-    section: 'sneakers',
+    section: 'shirt',
     pagination: '',
-    name: 'Nike Dunk High Retro Premium',
-    coverImage: '../images/image/Nike_Defy_All_Day_black.png',
+    name: 'Футболка Nike ACG',
+    coverImage: NikeACGShirt_1,
     image_1: '',
     fullPrice: 12990,
     currency: 12,
@@ -48,10 +53,10 @@ export const mockCards: Card [] = [
   },
   {
     id: 5,
-    section: 'sneakers',
+    section: 'socks',
     pagination: 'Лучшая цена',
-    name: 'Nike Dunk High Retro Premium',
-    coverImage: '../images/Nike_Defy_All_Day_black.png',
+    name: 'Носки Nike',
+    coverImage: NikeSocks_1,
     image_1: '',
     fullPrice: 12990,
     currency: 12,
@@ -59,10 +64,10 @@ export const mockCards: Card [] = [
   },
   {
     id: 6,
-    section: 'sneakers',
+    section: 'sweatshot',
     pagination: 'Хит сезона',
-    name: 'Nike Dunk High Retro Premium',
-    coverImage: '../images/Nike_Defy_All_Day_black.png',
+    name: 'Толстовка Jordan',
+    coverImage: JordanSShot_1,
     image_1: '',
     fullPrice: 12990,
     currency: 12,

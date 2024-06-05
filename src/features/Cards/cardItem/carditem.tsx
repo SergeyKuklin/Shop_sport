@@ -1,5 +1,4 @@
 import { mockCards } from "../model/mockCards";
-import coverImg from '../../assets/images/Nike_Air_Max_TW_SE_white.png';
 import s from './carditem.module.css';
 import { Card } from "features/shared/types/card";
 
@@ -21,7 +20,6 @@ function getStylePagination() {
         return (s.hidden);
     }
 }
-    //ghjdthrf
 // Функция подсчета стоимости в зависимости от скидки
 function sale() {
     if (cardData.currency === 0) {
@@ -46,7 +44,7 @@ function sale() {
                     </div>
                 </div>
                 <div className={s.imgCard}>
-                    <img src={coverImg} alt={cardData.name} />
+                    <img src={cardData.coverImage} alt={cardData.name} />
                     {/* <ImageCard src={cardData.coverImage} alt={cardData.name} /> */}
                 </div>
             </div>
